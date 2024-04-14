@@ -55,3 +55,7 @@ var cp = cir1.GetPerimeter();
 
 Console.WriteLine($"The area of circle is {ca}");
 Console.WriteLine($"The Perimeter of circle is {cp}");
+
+var Sphere1 = new Sphere(32.1);
+var spa = Sphere1.GetArea();
+Sphere1.PrintSphereInfo(32.1);
